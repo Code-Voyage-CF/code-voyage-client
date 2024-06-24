@@ -1,21 +1,17 @@
 import './App.css'
 import SearchForms from './components/SearchForms'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 function App() {
 
   return (
     <>
       <Navbar />
-      <div className='Title'>
-        <h1>Start your travel search Now!!</h1>
+      <div className='app-intro'>
+        <h1 className='app-h1'>Start your travel search Now!!</h1>
       </div>
       <SearchForms />
-      <div className='hotel-search'>
-        <p>Hotel Search</p>
-      </div>
-      <div className='shopping-search'>
-        <p>Shopping Search</p>
-      </div>
+      <Footer />
     </>
   )
 }

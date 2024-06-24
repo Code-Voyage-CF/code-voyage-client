@@ -4,7 +4,7 @@ Form {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  background-color: aliceblue;
+  background-color: rgb(101, 218, 247, 0.8);
   width: fit-content;
   padding: 2.5rem;
   border-radius: 10px;
@@ -25,4 +25,17 @@ Form {
 
 .button {
   margin-top: 1rem;
+}
+
+.top-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.bottom-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
