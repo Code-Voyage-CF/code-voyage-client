@@ -9,9 +9,9 @@ const Navbar = () => {
       </div>
       <div className="title">Code Voyage</div>
       <div className="nav-items">
-        <a>Home |</a>
-        <a> About |</a>
-        <a> Login</a>
+        <button className='home-button'>Home</button>
+        <button className='about-button'>About</button>
+        <button className='login-button'>Login</button>
       </div>
     </nav>
   );

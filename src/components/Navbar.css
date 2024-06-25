@@ -22,3 +22,15 @@ nav {
 .logo {
   height: 5rem;
 }
+
+.home-button {
+  border-radius: 10px 0 0 10px;
+}
+
+.about-button {
+  border-radius: 0;
+}
+
+.login-button {
+  border-radius: 0 10px 10px 0;
+}
